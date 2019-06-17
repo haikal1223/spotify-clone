@@ -1,0 +1,276 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --primary-color : #427466;
+    --secondary-color : #000000;
+    --text-color : white;
+}
+
+body{
+    font-family: poppins;
+}
+
+/* div{
+    border: 1px solid blue;
+} */
+/* ====================================== NAVBAR =============================== */
+.header-container{
+    background-color: var(--secondary-color);
+    display: flex;
+    /* padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 105px;
+    padding-right: 105px; */
+    padding: 20px 105px 20px 105px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+.brand img{
+    height: 40px;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    
+
+}
+
+.link-item{
+    display: inline-block;
+    color: var(--text-color);
+    margin-left: 30px;
+    cursor: pointer;
+}
+.link-item:hover{
+    color: #1ed760;
+}
+.garis{
+    cursor: default;
+}
+.garis:hover{
+    color: white;
+}
+/* ===========================================END NAVBAR======================================= */
+
+/* ============================JUMBOTRON SECTION================= */
+    div{
+        /* border: 1px solid blue; */
+    
+    }
+.jumbotron-container{
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-top: 88px;
+    background-color: var(--primary-color);
+    padding-top: 30px;
+
+
+}
+.jumbotron-items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.jumbotron-image img{
+    width: 467px;
+    padding-top: 35px;
+}
+.main-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    
+}
+.second-text{
+ font-size: 22px;
+ color: white;
+ margin-top: 35px;
+
+}
+.btn{
+    margin-top: 40px;
+    width: 327px;
+    height: 48px;
+    border-radius: 48px;
+    
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.white{
+    background-color: white;
+    color: #000000;
+} 
+.second{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 304px;
+    margin-top: 15px;
+    transition: 200ms;
+}
+.second:hover{
+    /* transition: 500ms color */
+    background-color: white;
+    color: black;
+}
+.small-text{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+/* ===================JUMBOTRON END SECTION======================= */
+/*=========================== COMENZAR SECTION =======================*/
+.comenzar-container{
+    /* padding-left: 433px;
+    padding-right: 433px; */
+    background-color: #9487b4;
+    padding-top: 74px;
+    text-align: center;
+}
+
+
+.main-text-comenzar{
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    /* text-align: center; */
+}
+.second-text-comenzar{
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    /* text-align: center; */
+}
+.btn-comenzar{
+    margin-top: 15px;
+    height: 48px;
+    width: 195px;
+    border-radius: 48px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 47px;
+    cursor: pointer;
+}
+.small-text-comenzar{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 15px;
+}
+.underline-btn{
+    cursor: pointer;
+}
+/* =========================COMENZAR END SECTION=============== */
+/* ================PREMIUM ACCOUNT==================== */
+.premium-content{
+        background-color: white;
+        padding-top: 63px;
+        text-align: center;
+        padding-left: 288px;
+        padding-right: 288px;
+
+}
+.layanan{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.no1{
+    font-size: 18px;
+}
+    .list{
+        padding-left: 239px;
+        text-align: left;
+    }
+    .premium-acc{
+        height: 48px;
+        width: 327px;
+        border-radius: 48px;
+        font-size: 14px;
+        font-weight: bolder;
+        border:3px solid var(--primary-color);
+        cursor: pointer;
+        background-color: white;
+        color: var(--primary-color);
+
+    }
+    .premium-acc:hover{
+        background-color: var(--primary-color);
+        color: white;
+    }
+
+    .btn1{
+      margin-top: 35px;
+      
+    }
+    .line{
+        margin-top: 32px;
+    }
+    .btn2{
+        margin-top: 60px;
+    }
+    .mainkan{
+        font-size: 48px;
+        font-weight: bolder;
+        margin-top: 62px;
+    }
+            .device-list{
+                cursor: pointer;
+            }
+    /*======================== spotify free================= */
+    .spotify-free{
+        text-align: center;
+        padding: 30px 105px 0 105px;
+    background-color: #8617D5;
+        background-image: url('https://www.scdn.co/i/free/lets-play.svg');
+        margin-top: 44px;
+    }
+    .gratis{
+        font-size: 48px;
+        font-weight: bolder;
+        color: white;
+    }
+    .free{
+        font-size: 14px;
+        font-weight: bolder;
+        height: 48px;
+        width:311px;
+        border-radius: 48px;
+        border: none;
+        margin-top: 25px;
+        margin-bottom: 44px;
+    }
+    .jutaan{
+        font-size: 18px;
+        color: white;
+        /* margin-top: 10px; */
+    }
+    /* SPOTIFY FREE END SECTION */
+
+    /* ==========COMPANY PROFILE=========== */
+    .company-profile{
+       background-color: #000000; 
+       color: white;
+       display: flex;
+       justify-content: space-around;
+    }
+    .imej img{
+        height: 40px;
+    }
+.abu{
+    color: #919496
+}
